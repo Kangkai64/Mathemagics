@@ -33,5 +33,3 @@ Unlike other educational apps that rely on flashy distractions, Mathemagics uses
 Whether your child is just beginning their mathematical journey or needs extra practice with fundamental operations, Mathemagics creates the perfect educational environment. Transform math anxiety into math enthusiasm with the wave of a digit!
 
 Mathemagics: Because the greatest magic trick is turning "I can't" into "I can!"
-
-*Available now on Google Play – where mathematical enchantment awaits!*
