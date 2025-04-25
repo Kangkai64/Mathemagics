@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="275dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120sp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/gradient_background"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnHPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="5sp"
+        android:backgroundTint="#673AB7"
+        android:drawableLeft="@drawable/baseline_play_arrow_24"
+        android:drawableTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Play"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHRanking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginVertical="5sp"
+        android:backgroundTint="#673AB7"
+        android:drawableLeft="@drawable/baseline_scoreboard_24"
+        android:drawableTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Ranking"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginVertical="5sp"
+        android:backgroundTint="#673AB7"
+        android:drawableLeft="@drawable/baseline_history_24"
+        android:drawableTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="History"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginVertical="5sp"
+        android:backgroundTint="#17AEA0"
+        android:drawableLeft="@drawable/baseline_login_24"
+        android:drawableTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

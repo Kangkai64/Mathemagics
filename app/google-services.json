@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "802383750572",
+    "firebase_url": "https://mathemagics-b293b-default-rtdb.firebaseio.com",
+    "project_id": "mathemagics-b293b",
+    "storage_bucket": "mathemagics-b293b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802383750572:android:c4d5f8e5ea8d372bd54609",
+        "android_client_info": {
+          "package_name": "com.example.Mathemagics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAISYxihM1m7VDW4nqgNlAlB6kbPNAiJaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

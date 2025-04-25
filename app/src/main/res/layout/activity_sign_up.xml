@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="casual"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20sp"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtSUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="5sp"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawableRight="@drawable/baseline_info_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="#49454F"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Username"
+            android:inputType="text"
+            android:textColor="#49454F"
+            android:textColorHint="#A4A3A5"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtSEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="5sp"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawableRight="@drawable/baseline_info_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="#49454F"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#49454F"
+            android:textColorHint="#A4A3A5"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtSPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="5sp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawableRight="@drawable/baseline_info_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="#49454F"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColor="#49454F"
+            android:textColorHint="#A4A3A5"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtSConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_marginTop="5sp"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawableRight="@drawable/baseline_info_24"
+            android:drawablePadding="8dp"
+            android:drawableTint="#49454F"
+            android:ems="10"
+            android:fontFamily="casual"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#49454F"
+            android:textColorHint="#A4A3A5"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20sp"
+        android:backgroundTint="#673AB7"
+        android:drawableLeft="@drawable/baseline_login_24"
+        android:drawableTint="#FFFFFF"
+        android:fontFamily="casual"
+        android:text="Sign Up New Account"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>
